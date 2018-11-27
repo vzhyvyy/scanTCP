@@ -22,7 +22,7 @@ AP = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatte
                 
 ===============================================================
 
-       PortListScan Example:
+       PortListScan EXAMPLE:
 
                 python3 Scan.py  --portlist 80 3389 8080 --ip 192.168.1.1 (scan one ip address)                                                             
                 python3 Scan.py   -l 80 3389 8080 --network 192.168.1.0/24 (scan all network)
